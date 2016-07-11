@@ -23,7 +23,7 @@ Quan Do, Wei Liu, ASTEN: an Accurate and Scalable Approach to Coupled Tensor Fac
 #Copyright
 This software is free for research projects. If you publish your results obtained from this software, please cite our paper:
 
-    @inproceedings{Do16,
+    @inproceedings{Do_ASTEN16,
       author = {Do, Quan and Liu, Wei},
       title = {ASTEN: An Accurate and Scalable Approach to Coupled Tensor Factorization},
       booktitle = {IEEE International Joint Conference in Neural Networks (IJCNN)},
