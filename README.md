@@ -15,19 +15,17 @@ Quan Do, University of Technology Sydney - https://sites.google.com/site/minhqua
 
 Wei Liu, University of Technology Sydney - https://sites.google.com/site/weiliusite/
 
+Contributing back bug fixes and improvements is polite and encouraged. If you have any question, feel free to contact Quan Do.
+
 #Reference
 Quan Do, Wei Liu, ASTEN: an Accurate and Scalable Approach to Coupled Tensor Factorization, in Proceedings of the International Joint Conference in Neural Networks (IJCNN), 2016 
 
 #Copyright
 This software is free for research projects. If you publish your results obtained from this software, please cite our paper:
 
-@inproceedings{Do16,
-
-    author = {Quan Do and Wei Liu},
-    title = {ASTEN: An Accurate and Scalable Approach to Coupled Tensor Factorization},
-    booktitle = {IEEE International Joint Conference in Neural Networks (IJCNN)},
-    year = {2016},
-
-}
-
-Contributing back bug fixes and improvements is polite and encouraged. If you have any question, feel free to contact Feng Zhou.
+    @inproceedings{Do16,
+      author = {Quan Do and Wei Liu},
+      title = {ASTEN: An Accurate and Scalable Approach to Coupled Tensor Factorization},
+      booktitle = {IEEE International Joint Conference in Neural Networks (IJCNN)},
+      year = {2016},
+    }
