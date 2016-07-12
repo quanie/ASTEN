@@ -10,18 +10,15 @@ Parameters: [Number of Tensor] <[Tensor 1's Mode] [Tensor 1's Length] ... [Tenso
   
 Please refer to run.sh for an example of how to specify the parameters.
 
-#Author
+#Authors
 Quan Do, University of Technology Sydney - https://sites.google.com/site/minhquandd/
 
 Wei Liu, University of Technology Sydney - https://sites.google.com/site/weiliusite/
 
-* Feel free to contact Quan if you have any question, bugs found or improvements.
+* Feel free to contact Quan for any question, bug fix or improvement.
 
 #Reference
-Quan Do, Wei Liu, ASTEN: an Accurate and Scalable Approach to Coupled Tensor Factorization, in Proceedings of the International Joint Conference in Neural Networks (IJCNN), 2016 
-
-#Copyright
-This software is free for research projects. If you publish your results obtained from this software, please cite our paper:
+Please reference as: Quan Do and Wei Liu, ASTEN: an Accurate and Scalable Approach to Coupled Tensor Factorization, in Proceedings of the International Joint Conference in Neural Networks (IJCNN), 2016 
 
     @inproceedings{Do_ASTEN16,
       author = {Do, Quan and Liu, Wei},
@@ -29,3 +26,7 @@ This software is free for research projects. If you publish your results obtaine
       booktitle = {IEEE International Joint Conference in Neural Networks (IJCNN)},
       year = {2016},
     }
+
+
+#Copyright
+This software is free for research purposes. For commercial purposes, please contact the authors.
