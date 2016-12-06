@@ -104,7 +104,7 @@ public class ASTEN_SGDThread extends CTF_SGDThread {
             Set setObservedEntry1 = spCTensor.getObservedEntryIdx(nMainTensorIdx, nMainTensorModeIdx, nStartIdx+rowIdx);
             int size1 = setObservedEntry1.size();
 
-            int size = size1 + 1;
+            int size = size1 + nRank;
 
             double[] label = new double[size];
             double[][] data = new double[size][];
@@ -142,14 +142,17 @@ public class ASTEN_SGDThread extends CTF_SGDThread {
             }
 
             //Coupled Tensor
-            double value =0;
-            weight[cnt] = (double)1/factors[nMainTensorIdx][nMainTensorModeIdx].getLength();
             for (int r=0; r<nRank; r++){
+                for(int j=0; j<nRank; j++)
+                    data[cnt][j] = 0;
+                
                 data[cnt][r] = 1;
-                value += factors[nCoupledTensorIdx][nCoupledTensorModeIdx].get(nStartIdx+rowIdx, r);
-            }
-            label[cnt] = value;
+                label[cnt] = factors[nCoupledTensorIdx][nCoupledTensorModeIdx].get(nStartIdx+rowIdx, r);
+                weight[cnt] = (double)1/(factors[nMainTensorIdx][nMainTensorModeIdx].getLength()*nRank);
 
+                cnt++;
+            }
+            
             //Update parameters
             localFactor.setRow(rowIdx, optimize(data, label, parameter, weight));
         }
