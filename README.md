@@ -11,7 +11,7 @@ Parameters: [Number of Tensor] <[Tensor 1's Mode] [Tensor 1's Length] ... [Tenso
 Please refer to run.sh for an example of how to specify the parameters.
 
 #Authors
-Quan Do, University of Technology Sydney - https://sites.google.com/site/minhquandd/
+Quan Do, University of Technology Sydney - https://quando.space
 
 Wei Liu, University of Technology Sydney - https://sites.google.com/site/weiliusite/
 
